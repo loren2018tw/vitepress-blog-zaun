@@ -2,9 +2,9 @@ import { getPosts, getPostLength } from "./theme/serverUtils";
 
 async function config() {
   return {
-    lang: "en-US",
-    title: "Clark Cui",
-    description: "Home of Clark Cui",
+    lang: "zh-TW",
+    title: "Loren Li",
+    description: "Loren's 胡搞瞎搞 blog",
     head: [
       [
         "link",
@@ -19,7 +19,7 @@ async function config() {
         "meta",
         {
           name: "author",
-          content: "Clark Cui",
+          content: "Loren",
         },
       ],
       [
@@ -33,18 +33,17 @@ async function config() {
         "meta",
         {
           property: "og:description",
-          content: "Home of Clark Cui",
+          content: "Loren's 胡搞瞎搞 blog",
         },
       ],
     ],
     themeConfig: {
-      // repo: "clark-cui/homeSite",
       logo: "/tea.svg",
       docsDir: "/",
       // docsBranch: "master",
       lastUpdated: false,
       posts: await getPosts(),
-      pageSize: 5, //几个为一页
+      pageSize: 7, //几个为一页
       postLength: await getPostLength(), //博客有几篇
 
       //       algolia: {

@@ -9,17 +9,17 @@ import { onMounted } from "vue";
 // const relativePath = useData().page.value.relativePath;
 
 const gitalk = new Gitalk({
-  clientID: "94f8f287e970c48e2122",
-  clientSecret: "2a3c7be462ddf835cff98c4ffa7add4ba229ad7e",
+  clientID: "",
+  clientSecret: "",
   repo: "blog-comments",
-  owner: "clark-cui",
-  admin: ["clark-cui"],
+  owner: "OOO",
+  admin: ["OOO"],
   id: decodeURI(window.location.pathname), // Ensure uniqueness and length less than 50
-  language: "zh-CN",
+  language: "zh-TW",
   distractionFreeMode: true, // Facebook-like distraction free mode
 });
 onMounted(() => {
-  gitalk.render("gitalk-container");
+  // gitalk.render("gitalk-container");
 });
 </script>
 <style scoped>
