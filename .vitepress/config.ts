@@ -5,6 +5,7 @@ async function config() {
     lang: "zh-TW",
     title: "Loren Li",
     description: "Loren's 胡搞瞎搞 blog",
+    base: '/blog/',
     head: [
       [
         "link",
