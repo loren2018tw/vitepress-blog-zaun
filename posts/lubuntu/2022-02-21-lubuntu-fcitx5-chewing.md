@@ -1,5 +1,5 @@
 ---
-title:  Lubuntu 21.04 改用 fcitx5 + rime 注音  
+title:  Lubuntu 21.04 改用 fcitx5 + 新酷音
 date: 2022-2-21
 tags: 
   - linux
@@ -13,6 +13,7 @@ location: Taiwan
 會想改用 fcitx5 是因為 lubuntu 21.04 
 的 fcitx 的新酷音某天開始給我發神經了，在 vscode 
 以及瀏覽器app每次打字一定要送出兩個以上的中文字，才有辦法輸出，不然字就會被吃掉...
+所以不得不更新 ><
 :::
 
 首先移除 fcitx
