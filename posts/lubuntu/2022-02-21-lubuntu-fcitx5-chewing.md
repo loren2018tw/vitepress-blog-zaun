@@ -29,9 +29,10 @@ ps:  fcitx5-chinese-addons 如果沒其他中文輸入法需求，建議不要�
 ![](./fcitx5-setup.png)
 
 如果 fcitx5 不會自動啟動，執行下面命令
-::: bash
+
+``` bash
 cp /usr/share/applications/org.fcitx.Fcitx5.desktop ~/.config/autostart/
-:::
+```
 
 漂亮的 fcitx5 佈景
 ``` bash
