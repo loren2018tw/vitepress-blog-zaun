@@ -2,7 +2,7 @@
 title: 新 blog  開張
 date: 2022-2-20
 tags: 
-  - vuepress
+  - vuepress 
 author: Loren
 location: Taiwan
 ---
@@ -16,4 +16,7 @@ rst  跟 md 格式用起來有回到 pe2 時代的 feel ... （其實很早就�
 測試了 pelican、hexo、hugo...最後終於有讓我滿意的 vuepress。
 
 所以 blog 就重新開張吧。
+
+補充：隔天就被我換成 vitepress ，不過不重要，因為慢慢把文件都變成 md 自己保存，所以隨時隨地都可以換技術。
+
  
