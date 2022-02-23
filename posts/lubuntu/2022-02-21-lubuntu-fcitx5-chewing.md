@@ -4,7 +4,6 @@ date: 2022-2-21
 tags: 
   - linux
   - fcitx5
-  - rime
 author: Loren
 location: Taiwan
 ---
@@ -50,10 +49,3 @@ rime 還是用不習慣，中文輸入法還是新酷音還是最對味，尤其
 這個選項打勾就是所謂單行模式，不顯示傳統輸入法的輸入框，直接顯示在應用程式中
 
 ![](./fcitx5-preedit.png)
-
-
-
-
-
-
-

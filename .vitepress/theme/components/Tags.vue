@@ -80,9 +80,13 @@ const getFontSize = (length: number) => {
 }
 .tag {
   display: inline-block;
+  padding: 4px 16px;
   margin: 6px 8px;
-  font-size: 0.85em;
+  font-size: 0.875em;
   line-height: 25px;
+  /* background-color: #72f8f8; */
+  /* border-radius: 3px; */
+  /* border-collapse: separate; */
   transition: 0.4s;
   color: #a1a1a1;
   cursor: pointer;
