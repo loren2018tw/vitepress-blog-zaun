@@ -51,7 +51,6 @@ async function config() {
       //         apiKey: "90a0bae6ff7307fb76896cbe2f975b0c",
       //         indexName: "clark-cui-docs",
       //       },
-
       nav: [
         {
           text: "🏡Home",
